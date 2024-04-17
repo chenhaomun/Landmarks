@@ -30,8 +30,6 @@ struct LandmarkDetail: View {
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
                 
-                Text(landmark.name)
-                    .font(.title).foregroundColor(.red)
                 HStack {
                     Text(landmark.park)
                     Spacer()
